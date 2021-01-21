@@ -44,11 +44,15 @@ _**Fast copy&paste to console ( except the dangerous part )**_
 - chmod -R 500 ~/dnsufw
 - chown -R root:root ~/dnsufw
 
+_**Fast copy&paste to console for the above part**_
+
+`mkdir /tmp/dnsufw/;git clone https://github.com/IacopoOrtis/DNSUFW.git /tmp/dnsufw/;mkdir ~/dnsUfw/;cp /tmp/dnsUfw/dnsUfw.\* ~/dnsUfw/;rm -r /tmp/dnsufw;chmod -R 500 ~/dnsufw;chown -R root:root ~/dnsufw;`
+
 - as root:
   - sudo -s
   - _you should know what you are doing_
   - crontab -e
-  - _/5 _ \* \* \* sh /path/to/dnsUfw.sh
+  - `*/5 * \* \* \* sh /path/to/dnsUfw.sh`
   - save & exit
   - edit "dnsUfw.hosts" file
   - test it
