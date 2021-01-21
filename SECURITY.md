@@ -11,6 +11,11 @@ Use this section to tell people about which versions of your project are current
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.
+- Read all possible vulnerabilities in "issues" section
+- Report an issue with the vulerability label.
+  - Include:
+    - how to recreate
+    - the issue it self
+    - script version
+    - ufw version
+    - OS version
